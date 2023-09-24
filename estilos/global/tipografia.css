@@ -19,6 +19,10 @@
     font: 400 1.125rem/1.35 'Fira Sans', sans-serif; /* 18/24*/
 }
 
+.font-1-s-b {
+    font: 600 1rem/1.35 'Fira Sans', sans-serif; /* 18/24*/
+}
+
 /* FONT ROBOTO */
 .font-2-l {
     font: 400 1.5rem/1.5 'Roboto', sans-serif; /* 24/36 */
