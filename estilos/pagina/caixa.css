@@ -11,8 +11,32 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 50px;
+    margin-top: 32px;
 }
 
 .caixa-item img {
     box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.05);
+}
+
+.caixa-descricao {
+    margin-top: 12px;
+    position: relative;
+    margin-left: 12px;
+}
+
+.caixa-descricao::before {
+    content: "";
+    height: 48px;
+    width: 2px;
+    display: inline-block;
+    background: linear-gradient(to bottom, #42EFEB, #4FBEBC);
+    margin-right: 8px;
+    transition: width 0.3s;
+    position: absolute;
+    top: 6px;
+    left: -12px;
+}
+
+.caixa-item a:hover .caixa-descricao::before {
+    width: 10px;
 }
