@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;600&family=Roboto:wght@400;500&display=swap');
+
+/* FONT FIRA SANS */
+.font-1-xxl {
+    font: 600 3.5rem/1.14 'Fira Sans', sans-serif; /* 54/64 */
+}
+
+.font-1-xl {
+    font: 600 2rem/1.25 'Fira Sans', sans-serif; /* 32/40 */
+}
+
+.font-1-l {
+    font: 400 1.5rem/1.5 'Fira Sans', sans-serif; /* 24/36 */
+}
+
+.font-1-m-b {
+    font: 600 1.125rem/1.35 'Fira Sans', sans-serif; /* 18/24 */
+}
+
+.font-1-m {
+    font: 400 1.125rem/1.35 'Fira Sans', sans-serif; /* 18/24*/
+}
+
+/* FONT ROBOTO */
+.font-2-l {
+    font: 400 1.5rem/1.5 'Roboto', sans-serif; /* 24/36 */
+}
+
+.font-2-m {
+    font: 500 1.125rem/1.35 'Roboto', sans-serif; /* 18/24 */
+}
+
+.font-2-s {
+    font: 400 1rem/1.35 'Roboto', sans-serif; /* 16/24*/
+}
