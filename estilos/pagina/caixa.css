@@ -1,0 +1,18 @@
+.caixa-bg {
+    background: var(--cor-0);
+}
+
+.caixa {
+    margin-top: 72px;
+}
+
+
+.caixa-lista {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+
+.caixa-item img {
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.05);
+}
