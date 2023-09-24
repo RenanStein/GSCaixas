@@ -1,0 +1,13 @@
+.botao {
+    background: linear-gradient(to right, #42EFEB, #4FBEBC);
+    padding: 20px 32px;
+    display: inline-block;
+    border-radius: 5px;
+    font: 600 1.125rem/1.35 'Fira Sans', sans-serif;
+    color: var(--cor-p7);
+    text-transform: uppercase;
+}
+
+.botao:hover {
+    background: linear-gradient(to right, #42d6d4, #48a5a3);
+}

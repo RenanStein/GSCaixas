@@ -1,0 +1,28 @@
+.apresentacao-bg {
+    background: var(--cor-12);
+}
+
+.apresentacao {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    padding: 20px;
+}
+
+.apresentacao-conteudo {
+    margin-top: 120px;
+}
+
+.apresentacao-conteudo h1 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.apresentacao-conteudo a {
+    margin-top: 32px;
+}
+
+.apresentacao-img {
+    margin-top: 78px;
+    margin-bottom: 78px;
+}
