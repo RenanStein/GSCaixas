@@ -5,6 +5,7 @@
 .header {
     color: var(--cor-0);
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
@@ -16,5 +17,49 @@
 
 .header-lista {
     display: flex;
+    flex-wrap: wrap;
+    place-content: center;
     gap: 40px;
+}
+
+.header-lista a {
+    display: inline-block;
+    position: relative;
+}
+
+.header-lista a:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background: var(--cor-0);
+    transition: 0.3s;
+}
+
+.header-lista a:hover::after {
+    width: 100%;
+}
+
+
+@media (max-width: 600px) {
+    .header {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .header-lista {
+        gap: 20px;
+    }
+    .header-lista a {
+        background: var(--cor-11);
+        padding: 8px 12px;
+        border-radius: 5px;
+    }
+    .header-lista a:hover::after {
+        width: 0%;
+    }
+    .header-lista a:hover {
+        background: var(--cor-10);
+    }
+
 }
